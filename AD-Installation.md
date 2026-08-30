@@ -106,6 +106,8 @@ Set-DnsClientServerAddress -InterfaceIndex 2 -ServerAddresses 10.0.2.2
 
 At this stage, the server had a predictable IP address that could be used by the future Active Directory environment.
 
+<img width="1095" height="836" alt="SS-AD-DisableDHCPRemovenReplace-StaticIP" src="https://github.com/user-attachments/assets/a57b48b3-2c6d-4b9e-b0a4-1d09ba502aa3" />
+
 **[SCREENSHOT — Final Get-NetIPConfiguration output]**
 
 *Figure 5: Static IP configuration after configuring the Domain Controller's network interface.*
@@ -116,6 +118,10 @@ The static IP configuration is particularly important for Active Directory becau
 For example, computers joining the domain need to be able to consistently communicate with the Domain Controller and locate Active Directory services.
 In addition, Active Directory depends heavily on DNS. The Domain Controller will eventually host DNS for the `corp.lab` domain.
 Using a static IP prevents the Domain Controller's address from changing unexpectedly.
+
+<img width="1021" height="820" alt="SS-AD-CheckingIP" src="https://github.com/user-attachments/assets/687edc66-a3c1-45f6-8b3e-c8963bfde48d" />
+
+
 ---
 
 ## 6. Installing Active Directory Domain Services
@@ -127,6 +133,8 @@ The installation command was:
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 ```
 This installs the components necessary to configure the Windows Server as an Active Directory Domain Controller.
+
+<img width="1154" height="947" alt="image" src="https://github.com/user-attachments/assets/91b25775-f1af-4767-bb9f-4980641e32da" />
 
 **[SCREENSHOT — Install-WindowsFeature command and successful installation]**
 
