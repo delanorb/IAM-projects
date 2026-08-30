@@ -54,7 +54,7 @@ The server had one active Ethernet adapter:
 * **Status:** Up
 * **Link Speed:** 1 Gbps
 
-<img width="1021" height="851" alt="SS-AD-NetworkConfigurations" src="https://github.com/user-attachments/assets/46da0046-91ea-4980-b170-492911f14114" />
+<img width="1021" height="291" alt="image" src="https://github.com/user-attachments/assets/30536e2e-ecaa-4322-b262-eca8950295ae" />
 
 **[SCREENSHOT — Get-NetAdapter output]**
 
@@ -68,7 +68,8 @@ Get-NetIPConfiguration
 
 Initially, the server was receiving its IPv4 address through DHCP. The server had an address of `10.0.2.15`, which is consistent with the default NAT networking configuration used by VirtualBox.
 
-<img width="1021" height="291" alt="image" src="https://github.com/user-attachments/assets/30536e2e-ecaa-4322-b262-eca8950295ae" />
+<img width="1021" height="851" alt="SS-AD-NetworkConfigurations" src="https://github.com/user-attachments/assets/46da0046-91ea-4980-b170-492911f14114" />
+
 
 **[SCREENSHOT — Initial Get-NetIPConfiguration output]**
 
