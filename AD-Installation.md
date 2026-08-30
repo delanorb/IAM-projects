@@ -17,6 +17,7 @@ I started by creating a virtual machine in Oracle VirtualBox and installing Wind
 Unlike the desktop version of Windows Server, I installed the **Server Core** version. Server Core does not include the traditional graphical Windows desktop. Instead, system administration is primarily performed through PowerShell and Microsoft's Server Configuration tool (`SConfig`).
 After logging into the server, I was presented with the SConfig interface.
 
+<img width="1022" height="851" alt="image" src="https://github.com/user-attachments/assets/494f540c-bc36-48ce-96b2-61e729d2f24b" />
 
 **[SCREENSHOT — Windows Server 2022 SConfig screen]**
 
