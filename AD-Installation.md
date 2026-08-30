@@ -54,6 +54,8 @@ The server had one active Ethernet adapter:
 * **Status:** Up
 * **Link Speed:** 1 Gbps
 
+<img width="1021" height="851" alt="SS-AD-NetworkConfigurations" src="https://github.com/user-attachments/assets/46da0046-91ea-4980-b170-492911f14114" />
+
 **[SCREENSHOT — Get-NetAdapter output]**
 
 *Figure 3: Identifying the active Ethernet network adapter.*
@@ -65,6 +67,8 @@ Get-NetIPConfiguration
 ```
 
 Initially, the server was receiving its IPv4 address through DHCP. The server had an address of `10.0.2.15`, which is consistent with the default NAT networking configuration used by VirtualBox.
+
+<img width="1021" height="291" alt="image" src="https://github.com/user-attachments/assets/30536e2e-ecaa-4322-b262-eca8950295ae" />
 
 **[SCREENSHOT — Initial Get-NetIPConfiguration output]**
 
@@ -134,8 +138,9 @@ Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 ```
 This installs the components necessary to configure the Windows Server as an Active Directory Domain Controller.
 
-<img width="1154" height="947" alt="image" src="https://github.com/user-attachments/assets/91b25775-f1af-4767-bb9f-4980641e32da" />
+<img width="1020" height="844" alt="SS-AD-ADInstallation" src="https://github.com/user-attachments/assets/532e12dd-0811-4a82-b3b6-1df5818cc52a" />
 
+<img width="1154" height="947" alt="image" src="https://github.com/user-attachments/assets/91b25775-f1af-4767-bb9f-4980641e32da" />
 **[SCREENSHOT — Install-WindowsFeature command and successful installation]**
 
 *Figure 6: Installing the Active Directory Domain Services role.*
